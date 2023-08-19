@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/queries.css">
+    <script defer src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <main>
+        <div class="main-container">
+
+            <header class="header">
+                
+                <div class="nav-location">
+                    <a href="#"><ion-icon class="nav-icons" name="location"></ion-icon></a></li>
+                    <a href="#" class="nav-location-text location-text">London</a></li>
+                </div>
+                
+                <div class="search">
+                    <div class="icon"></div>
+                    <div class="input">
+                        <form>
+                            <input type="text" placeholder="Search for a City" class="search-input">
+                        </form>
+                    </div>
+                    <span class="clear"></span>
+                </div>
+            </header>
+
+            <section class="section-weather-report">
+                <div class="report-container">
+                    <img defer class="weather-img" src="./assets/images/Weather_Icons/moon/Blizzard.png">
+                    <div class="weather-degree-container">
+                        <p class="weather-description">Thunderstorm!</p>
+                        <h1 class="weather-degree">23 &deg;</h1>
+                    </div>
+                    
+                    <div class="weather-report-text">
+                        <div class="wind">
+                            <a href="#"><box-icon name='wind' class="weather-report-icons"></box-icon></a>
+                            <p class="wind-text"> 10 Km/h</p>
+                        </div>
+                        <div class="rain-chance">
+                            <a href="#"><box-icon name='droplet' class="weather-report-icons"></box-icon></a>
+                            <p class="rain-text"> 67%</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            
+            <section class="section-weather-days">
+                <div class="days-container">
+                    <div class="days-text-box">
+                        <p class="day activeDay">Mon, 19 Sep</p>
+                        <p class="day">Tue, 20 Sep</p>
+                        <p class="day">Today, 18 Sep</p>
+                    </div>
+                    <div class="hourly-card">
+                        <div class="hourly-cards">
+                            <p class="hourly-time">9:00 AM</p>
+                            <img defer src="./assets/images/Weather_Icons/sun/Blizzard.png" class="cloud-img">
+                            <h1 class="hourly-degree">23 &deg;</h1>
+                        </div>
+                        <div class="hourly-cards">
+                            <p class="hourly-time">9:00 AM</p>
+                            <img defer src="./assets/images/Weather_Icons/sun/Blowing snow.png" class="cloud-img">
+                            <h1 class="hourly-degree">23 &deg;</h1>
+                        </div>
+                        <div class="hourly-cards">
+                            <p class="hourly-time">9:00 AM</p>
+                            <img defer src="./assets/images/Weather_Icons/sun/Cloudy.png" class="cloud-img">
+                            <h1 class="hourly-degree">23 &deg;</h1>
+                        </div>
+                        <div class="hourly-cards">
+                            <p class="hourly-time">9:00 AM</p>
+                            <img src="./assets/images/Weather_Icons/moon/Fog.png" class="cloud-img">
+                            <h1 class="hourly-degree">23 &deg;</h1>
+            </div>
+            
+        </div>
+        
+    </div>
+</section>
+
+</div>
+    </main>
+
+
+
+
+
+
+   
+    <script defer src="./assets/javascript/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,332 @@
+@media (max-width: 1300px) {
+
+    html{
+        overflow: auto;
+    }
+
+    .main-container{
+        width: 85%;
+        height: 98vh;
+    }
+
+    .header{
+        padding: 0rem 10rem;
+    }
+
+    .report-container{
+        margin: -5rem auto;
+    }
+
+    .weather-img{
+        width: 37%;
+    }
+
+    .weather-description{
+        font-size: 2.4rem;
+    }
+
+    .weather-report-icons{
+        font-size: 1.2rem;
+    }
+    
+    .wind-text, .rain-text{
+        font-size: 1.5rem;
+    }
+
+    .section-weather-days{
+        padding: 3rem 0;
+    }
+
+    .days-text-box{
+        margin-top: 2rem;
+    }
+
+    .days-text-box, p{
+        font-size: 1.8rem;
+    }
+
+    .hourly-card{
+        width: 92%;
+    }
+
+    .hourly-cards{
+        width: 12rem;
+        height: 16rem;
+    }
+
+    .hourly-time{
+        font-size: 1.7rem;
+    }
+    .hourly-degree{
+        margin-left: 1.5rem;
+        font-size: 2.5rem;
+    }
+
+}
+@media (max-width: 1100px) {
+    .weather-img{
+        width: 40%;
+    }
+
+    .weather-degree{
+        font-size: 3.7rem;
+    }
+
+    .wind-text, .rain-text{
+        font-size: 1.8rem;
+    }
+
+    .days-text-box, p{
+        font-size: 2rem;
+    }
+
+    .hourly-time{
+        font-size: 1.9rem;
+    }
+
+    .hourly-degree{
+        margin-left: .8rem;
+        font-size: 2.7rem;
+    }
+
+    .cloud-img{
+        width: 12rem;
+        height: 9rem;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .header{
+        padding: 0rem 8rem;
+    }
+
+    .main-container{
+        width: 90%;
+        height: 98vh;
+    }
+
+    .weather-description{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .weather-degree{
+        font-size: 5rem;
+    }
+
+    .wind-text, .rain-text{
+        font-size: 1.9rem;
+    }
+
+    .days-text-box, p{
+        font-size: 2.1rem;
+    }
+
+    .hourly-time{
+        font-size: 1.8rem;
+    }
+
+    .hourly-degree{
+        margin-left: .8rem;
+        font-size: 2.8rem;
+    }
+
+    .hourly-cards{
+        width: 13rem;
+        height: 18rem;
+    }
+
+    .cloud-img{
+        width: 14rem;
+        height: 11rem;
+    }
+}
+
+
+@media (max-width: 865px){
+
+    .main-container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    main{
+        padding: 0rem;
+    }
+
+    .hourly-cards{
+        width: 12rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 865px){
+    .hourly-card{
+        gap: 3rem;
+    }
+
+    .report-container{
+        margin: -1rem auto;
+    }
+
+}
+
+@media (max-width: 700px){
+    .report-container{
+        margin: 1rem auto;
+    }
+
+    .section-weather-days{
+        padding: 1rem 0;
+    }
+
+    
+}
+
+@media (max-width: 700px){
+
+    .weather-img{
+        width: 60%;
+    }
+
+    .report-container{
+        margin: -4rem auto;
+    }
+
+    .days-text-box{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+}
+
+@media (max-width: 650px){
+
+    .weather-img{
+        width: 67%;
+    }
+
+    .report-container{
+        margin: -4rem auto;
+    }
+
+    .header{
+        padding: 0rem 5rem;
+    }
+
+    .hourly-card{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+
+    }
+
+    .hourly-cards{
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 13px;
+        margin-bottom: 15px;
+    }
+    
+}
+
+@media (max-width: 550px){
+    .weather-img{
+        width: 70%;
+    }
+
+    .report-container{
+        margin: -2.1rem auto;
+    }
+}
+
+@media (max-width: 500px){
+    .weather-img{
+        width: 76%;
+    }
+
+    .report-container{
+        margin: -1.8rem auto;
+    }
+
+    .days-text-box, p{
+        font-size: 1.8rem;
+    }
+    .days-text-box{
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    
+}
+
+@media (max-width: 480px) {
+    .nav-location.active{
+        display: none;
+    }
+
+    .search.active{
+        width: 290px;
+    }
+
+    .search{
+        left: 10px;
+    }
+}
+
+@media (max-width: 365px){
+    .days-text-box, p{
+        font-size: 1.8rem;
+    }
+    .days-text-box{
+        display: flex;
+        justify-content: center;
+        gap: 1.8rem;
+    }
+
+    .weather-img{
+        width: 80%;
+    }
+    
+
+    .report-container{
+        margin: -5rem auto;
+    }
+
+    .header{
+        width: 100%;
+        padding: 0rem 4rem;
+    }
+    
+    .nav-location{
+        gap: .1rem;
+    }
+
+    .nav-location-text{
+        font-size: 1.7rem;
+    }
+    
+    .search.active{
+        width: 280px;
+    }
+
+    input[type=text]:focus {
+        width: 220px;
+
+    }
+
+    .main-container{
+        height: 93vh;
+        /* background-color: #2F2E62; */
+    }
+
+}
