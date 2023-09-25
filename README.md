@@ -1,4 +1,4 @@
-Watch it LIVE! 🎉 -> https://jebarson-weather-app.netlify.app/
+Watch it LIVE! 🎉 -> [https://rachelsheeba-weather-app.netlify.app/]
 
 What the project does? 🤔 --> Show the current temperature of any city in the world (with a search box where you can type your city and get updated weather) also it uses geolocation API so it will provide user's location without having to type ⛅
 
